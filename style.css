@@ -1,0 +1,10 @@
+body {
+   background-image: url(homepage.jpg);
+   min-height: 100vh;
+   background-size: cover;
+   font-family: fantasy;
+}
+
+h1{
+   text-align: center;
+}
