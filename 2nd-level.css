@@ -1,6 +1,27 @@
 body {
     background-image: url(level-2-background.jpg) ;
     min-height: 100vh;
-    background-size: cover;
-  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
 }
+
+
+.button-positioning{
+  text-align: center;
+  position: absolute;
+  top: 5%;
+ left: 42%;
+
+}
+.btn-large{
+
+  font-size: 30px;
+  font-family: impact;
+ 
+}
+.btn-color{
+  background-color: rgb(157, 193, 131);
+  border-color: black;
+  color: white;
+  }
