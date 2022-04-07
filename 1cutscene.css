@@ -1,6 +1,12 @@
 body {
-    background-image: url(bg1cutscene.jpg);
+    background-image: url(bg1cutscene.webp) ;
     min-height: 100vh;
+    background-size: 100% 100%;
     background-size: cover;
+   
+}
+
+.speech {
     
+
 }
