@@ -21,7 +21,7 @@ body {
 .obstacle{
     text-align: center;
     position: absolute;
-    bottom: 3%;
+    bottom: 6%;
     left: 32%;
     width: 300px;
     shape-outside: url(obstacle-1.png);
@@ -33,7 +33,7 @@ body {
 .egg{
     text-align: center;
     position: absolute;
-    bottom: 17%;
+    top: 100;
     left: 50%;
     width: 49px;
 }
@@ -45,8 +45,8 @@ body {
 .egg2 {
     text-align: center;
     position: absolute;
-    bottom: 60%;
-    left: 5%;
+    bottom: 54%;
+    left: 19%;
     width: 49px;
 }
 
@@ -55,11 +55,33 @@ body {
 }
 
 .obstacle2 {
+    width: 140px;
     text-align: center;
     position: absolute;
-    bottom: 60%;
-    left: 5%;
-    width: 200px;
+    bottom: 48%;
+    left: 13%;
     shape-outside: url(obstacle-1.png);
 }
+
+.egg3 {
+    text-align: center;
+    position: absolute;
+    bottom: 54%;
+    left: 19%;
+    width: 49px;
+}
+
+.egg3 img {
+    width: 100%;
+}
+
+.obstacle3 {
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    bottom: 48%;
+    left: 13%;
+    shape-outside: url(obstacle3.png);
+}
+
 
