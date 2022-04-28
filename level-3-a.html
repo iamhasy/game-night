@@ -9,13 +9,24 @@
     <link rel="stylesheet" href="level-3.css">
 </head>
 <body>
-
-    
-    
 <div class="button-positioning">
     <button type="button" class="btn btn-warning btn-large btn-color">third level</button>
 </div>
 <a href="index.html">home</a>
+
+<div class="obstacle" onclick="addClass(this,'moved')"></div>
+<div class="obstacle-2" onclick="addClass(this,'moved-2')"></div>
+
+<a href="level-3-b.html" class="egg">
+    <img src="egg-1.png" alt="">
+</a>
+
+<script>
+    const addClass = (target,className) => {
+        target.classList.add(className)
+    }
+</script>
+
 
 </body>
 </html>
