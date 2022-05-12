@@ -1,0 +1,43 @@
+.obstacle1 {
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    bottom: 48%;
+    left: 13%;
+    shape-outside: url(obstacle2-2.png);
+  z-index: 10;
+}
+.obstacle img{
+    width: 100%;
+  }
+  .moved-2{
+    animation: obstacle2Anim 2s forwards;
+  }
+  @keyframes obstacle2Anim {
+    100%{
+      transform: rotate(-90deg);
+      left: 15%;
+    }
+  }
+  
+  .moved{
+    animation: obstacleAnim 2s forwards;
+  }
+  @keyframes obstacleAnim {
+    100%{
+      left: 39%;
+    }
+  }
+
+
+
+.egg2{ 
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    width: 150px;
+}
+.egg2 img{
+    width: 100%;
+}
