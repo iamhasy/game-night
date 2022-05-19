@@ -32,8 +32,6 @@ color: white;
 .egg img{
 width: 100%;
 }
-
-
 .obstacle{
   width: 100px;
     text-align: center;
@@ -64,8 +62,33 @@ width: 100%;
   100%{
     left: 39%;
   }
-  
 }
+
+.egg2 {
+    position: absolute;
+    top: 16%;
+    left: 80%;
+    width: 50px;
+    display: block;
+  }
+
+  .egg2 img{
+  width: 100%;
+  }
+  .obstacle2{
+    width: 291px;
+      text-align: center;
+      position: absolute;
+      top: 16%;
+      left: 78%;
+      shape-outside: url(obstacletwo.png);
+    }
+
+.obstacle2 img{
+  width:100%;
+}
+
+
 .egg3{
   position: absolute;
   bottom: 20%;
@@ -82,19 +105,64 @@ width: 100%;
     position: absolute;
     bottom: 20%;
     left:77%;
-    shape-outside: url(obstacle.1.png);
+    shape-outside: url(obstaclethree.png);
   z-index: 10;
 }
 .obstacle3 img{
   width: 100%;
 }
-.moved2{
+.moved3{
   animation: obstacle2Anim 2s forwards;
 }
 @keyframes obstacle2Anim {
   100%{
     transform: rotate(-90deg);
     left: 60%;
+ }
+}
+  .egg4{
+    position: absolute;
+    top: 38%;
+    left: 52%;
+    width: 30px;
+    display: block;
+    rotate: 90deg;
   }
+  .egg4 img {
+   width: 100%;
+  }
+  .obstacle4{
+    width: 195px;
+      text-align: center;
+      position: absolute;
+      top: 38%;
+      left:51%;
+      shape-outside: url(obstacle4.png);
+    z-index: 10;
+  }
+  .obstacle4 img{
+    width: 100%;
+  }
+  .egg5{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 30px;
+    display: block;
   
-
+  }
+  .egg5 img {
+   width: 100%;
+  }
+  .obstacle5{
+    width: 97px;
+      text-align: center;
+      position: absolute;
+      top: 43%;
+      left: 2%;
+      shape-outside: url(obstacle5.png);
+    z-index: 10;
+  }
+  .obstacle5 img{
+    width: 100%;
+  }
